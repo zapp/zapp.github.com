@@ -1,0 +1,15 @@
+<div class="tile five columns {% if post.work_in_progress %}wip{% endif %}">
+	<div class="image-wrapper">
+		<div class="image" style="background-image:     url({{ post.banner_url }});
+								  {% if post.banner_attachment %}
+								  	background-position: {{ post.banner_attachment }};
+								  {% endif %}"
+		></div>
+	</div>
+	<div class="title">
+		{{ post.title }}
+	</div>
+	<div class="description">
+		“{{ post.description }}”
+	</div>
+</div>

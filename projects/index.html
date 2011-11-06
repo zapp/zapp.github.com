@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="sidebar four columns offset-by-one">
+	Read about
+	<span class="projects">projects</span>
+	I&nbsp;am currently working on or have been busy with in the past.
+</div>
+
+<div class="eleven columns alpha omega">
+	{% for post in site.categories.projects %}
+		{% include tile.html %}
+	{% endfor %}
+</div>
