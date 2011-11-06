@@ -180,7 +180,10 @@ html.wf-adelle-n7-active ul.navigation a {
 
 /* Tiles */
 .tile {
+  display: block;
+
   padding: 0 0 16px 0;
+  text-decoration: none;
 }
 
 .tile .image-wrapper {
@@ -220,6 +223,8 @@ html.wf-adelle-n7-active ul.navigation a {
 
 .tile .description {
   font-size: 16px;
+
+  color: #EEE;
 }
 
 .tile:first-child .image-wrapper {
