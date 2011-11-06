@@ -27,7 +27,7 @@ body, p, p strong, p i  {
 }
 
 h1, h2 ,h3, h4, h5, h6 {
-  font-family: adelle, serif;
+  font-family: adelle, helvetica, serif;
   font-weight: 700;
   color:       #EEE;
 }
@@ -87,13 +87,17 @@ ul.navigation li {
 ul.navigation a {
   padding:     0px 17px;
 
-  position: relative;
-  top:      6px;
-
-  font-family: adelle, serif;
+  font-family: adelle, helvetica, serif;
   font-weight: 700;
   text-decoration: none;
   letter-spacing: -4px;
+
+  position: relative;
+}
+
+// Adapt Adelle only
+html.wf-adelle-n7-active ul.navigation a {
+  top:      6px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -111,15 +115,66 @@ ul.navigation a {
   }
 
   ul.navigation li {
+    display:     block;
     height:      22px;
     font-size:   30px;
     line-height: 22px;
   }
 
   ul.navigation a {
-    top:            3px;
     padding:        0px 6px;
     letter-spacing: -2px;
+  }
+
+  // Adapt Adelle only
+  html.wf-adelle-n7-active ul.navigation a {
+    top:      3px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .header {
+    background: url(/img/ui/header_bulb_small.png) no-repeat;
+    height:     110px;
+    width:      100%;
+  }
+
+  .header .content-wrapper {
+    margin: 24px 0 0 52px;
+  }
+
+  .header h1 {
+    line-height: 26px;
+
+    display: block;
+    float:   right;
+
+    width:   111px;
+  }
+
+  .header h1 span {
+    display: block;
+    float:   left;
+  }
+
+  ul.navigation {
+    display: block;
+    float:   left;
+    width:   137px;
+  }
+
+  ul.navigation li {
+    display:    block;
+    float:      right;
+    height:     22px;
+    margin:     0 0 4px 1px;
+    width:      137px;
+    background: transparent;
+  }
+
+  ul.navigation li a {
+    display: inline;
+    padding: 0 9px 0 0;
   }
 }
 
@@ -136,7 +191,7 @@ ul.navigation a {
   padding: 10px;
 }
 
-.tile.wip .image-wrapper:after {
+.tile.wip:not(.ie7) .image-wrapper:after {
   content:  url(/img/ui/wip.png);
   position: absolute;
   top:      -2px;
@@ -156,7 +211,7 @@ ul.navigation a {
 }
 
 .tile .title {
-  font-family: adelle, serif;
+  font-family: adelle, helvetica, serif;
   font-weight: 700;
   color:       #EEE;
   font-size:   32px;
@@ -189,7 +244,7 @@ ul.navigation a {
 
 /* Sidebar */
 .sidebar {
-  font-family: adelle, serif;
+  font-family: adelle, helvetica, serif;
   text-align:  right;
 
   font-size:   30px;
