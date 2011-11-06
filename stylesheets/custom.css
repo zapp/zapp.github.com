@@ -6,15 +6,7 @@ body{
   height: 100%;
 
   background: #161515
-        url(/img/ui/texture.png) no-repeat center top fixed;
-    -webkit-background-size: 1920px 2200px;
-  // background: -moz-linear-gradient(top, #1a1a1a 600px, #000000 100%);
-  // background: -webkit-gradient(linear, left top, left bottom, color-stop(600px,#1a1a1a), color-stop(100%,#000000));
-  // background: -webkit-linear-gradient(top, #1a1a1a 600px,#000000 100%);
-  // background: -o-linear-gradient(top, #1a1a1a 600px,#000000 100%);
-  // background: -ms-linear-gradient(top, #1a1a1a 600px,#000000 100%);
-  // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#161515', endColorstr='#000000',GradientType=0 );
-  // background: linear-gradient(top, #1a1a1a 600px,#000000 100%);
+              url(/img/ui/texture.png) no-repeat center top fixed;
 }
 
 i {
@@ -22,7 +14,10 @@ i {
 }
 
 body, p, p strong, p i  {
-  font-family: ff-meta-serif-web-pro, serif;
+  font-family: ff-meta-web-pro, sans-serif;
+  font-size:   16px;
+  line-height: 24px;
+
   color:       #EEE;
 }
 
@@ -262,7 +257,6 @@ html.wf-adelle-n7-active ul.navigation a {
 
 .sidebar span.projects {
   font-size: 44px;
-
   color: #C5C533;
 }
 
@@ -275,5 +269,87 @@ html.wf-adelle-n7-active ul.navigation a {
 
   .sidebar span.projects {
     font-size:   30px;
+  }
+}
+
+/* About Me photo */
+.profile-wrapper {
+  font-family: adelle, helvetica, serif;
+
+  font-size:   22px;
+  line-height: 30px;
+
+  font-weight: 700;
+}
+
+.profile-wrapper span.personal {
+  color: #C5C533;
+}
+
+.profile-wrapper {
+  background:  url(/img/about-me/hi-grainy-m.png) no-repeat 214px 0;
+  padding:     45px 0 0 50px;
+  height:     370px;
+  font-size:  30px;
+}
+
+.profile-wrapper span {
+  display: block;
+}
+
+.profile-wrapper span.personal {
+  font-size: 58px;
+  margin: 0 0 20px 0;
+}
+
+.profile-wrapper span.information {
+  font-size: 44px;
+  margin: 0 0 14px 0;
+}
+
+.profile-wrapper span.about-me {
+  font-size: 44px;
+  margin: 0 0 14px 0;
+}
+
+.profile-wrapper span.contact {
+  font-size: 52px;
+  margin: 0 0 18px 0;
+}
+
+.profile-wrapper span.details {
+  font-size: 48px;
+  margin: 0 0 12px 0;
+}
+
+.profile-wrapper span.documents {
+  font-size: 32px;
+  margin: 0 0 4px 0;
+}
+
+.profile-wrapper span.and-photos {
+  font-size: 34px;
+}
+
+@media only screen and (max-width: 959px) {
+  .profile-wrapper {
+    background: url(/img/about-me/hi-grainy-m.png) no-repeat 145px 0;
+    padding:    45px 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .profile-wrapper {
+    background: none;
+    height:     auto;
+  }
+
+  .profile-wrapper span.personal {
+    font-size: 30px;
+  }
+
+  .profile-wrapper span {
+    font-size: 24px !important;
+    display: inline;
   }
 }
