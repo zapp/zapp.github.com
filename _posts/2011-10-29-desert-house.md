@@ -1,7 +1,7 @@
 ---
 title:       Desert House
+layout:      game
 categories:  games
-layout:      post
 description: 3D arch. assets for an early version of Spectaculum.
 banner_url:  /img/banner/desert_house.png
 ---

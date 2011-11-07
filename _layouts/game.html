@@ -2,6 +2,16 @@
 layout: default
 ---
 
-<h1>Das ist ein Spiel</h1>
-
-{{ content }}
+<div class="game-header nine columns offset-by-one">
+  <h2>
+    <span>{{ page.title }}</span>
+  </h2>
+</div>
+<div class="game-body nine columns offset-by-one">
+  {{ content }}
+</div>
+<div class="game-sidebar five columns">
+  {% for picture in page.sidebar_pictures %}
+    <img src="{{ picture }}" alt="{{ page.title }}" />
+  {% endfor %}
+</div>

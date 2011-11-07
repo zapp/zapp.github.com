@@ -1,16 +1,41 @@
 ---
 title:       Spectaculum
-layout:      post
+layout:      game
 categories:  games
 description: A four player coop action adventure with gipsy artists.
 banner_url:  /img/banner/spectaculum.png
 
 work_in_progress: true
+sidebar_pictures: [/img/games/spectaculum/spectaculum1.png,
+                   /img/games/spectaculum/spectaculum2.png,
+                   /img/games/spectaculum/spectaculum3.png]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+__Spectaculum__ is a cooperative action-adventure game for four players.
+Slip into the roles of four gipsies artists- each with their own unique
+abilities to fight different kinds of enemies while protecting a caravan
+and solving puzzles cooperatively.
+Let destiny guide you through uncharted lands, as youíll experience a
+world in which bearocratic clerks want to take away the only thing that
+maters to you… your freedom.
+
+__Spectaculum__ is designed as a couch game for friends and families. Battle
+tactics, puzzle solutions and even the control over your caravan require
+you to communicate. So listen carefuly and act thoughtfully as you're
+heading down a giant canyon with 180 km/h!
+
+
+The game is a student project currently developed by a ten-strong team
+of both Game Design and Media & Computer Science students at University
+of Applied Sciences (HTW) Berlin.
+
+Go visit [gipsyadventure.com][gipsyadventure] for more information.
+Watch the recent ingame fotage from our proof-of-concept prototype or
+browse other pictures and arts of the game:
+
+
+<iframe width="640px" height="360px" src="https://www.youtube.com/embed/Dksq056lJMY"/>
+
+
+
+[gipsyadventure]: http://gipsyadventure.com

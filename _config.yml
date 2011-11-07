@@ -1,4 +1,4 @@
-auto: 	   false
-server:      false
-markdown:    kramdown
-permalink:   /:categories/:title
+auto:      false
+server:    false
+markdown:  kramdown
+permalink: /:categories/:title

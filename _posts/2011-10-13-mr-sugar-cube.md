@@ -1,7 +1,7 @@
 ---
 title:       Mr Sugar Cube
+layout:      game
 categories:  games
-layout:      post
 description: A sweet camera-controlled raincatcher game
 banner_url:  /img/banner/mrsugarcube.png
 ---
