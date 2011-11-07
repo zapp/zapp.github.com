@@ -1,11 +1,9 @@
 ---
-layout: 	 post
-categories:  projects
-
 title:       Spectaculum
+layout:      post
+categories:  games
 description: A four player coop action adventure with gipsy artists.
-
-banner_url:  "/img/banner/spectaculum.png"
+banner_url:  /img/banner/spectaculum.png
 
 work_in_progress: true
 ---

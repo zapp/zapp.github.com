@@ -9,7 +9,12 @@ layout: default
 </div>
 
 <div class="eleven columns alpha omega">
-	{% for post in site.categories.projects %}
+  <div class="row">
+	{% for post in site.categories.games %}
 		{% include tile.html %}
+    {% unless forloop.first or forloop.last %}
+      {% cycle '</div><div class="row">', '' %}
+    {% endunless %}
 	{% endfor %}
+  </div>
 </div>

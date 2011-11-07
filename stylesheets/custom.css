@@ -14,17 +14,32 @@ i {
 }
 
 body, p, p strong, p i  {
-  font-family: ff-meta-web-pro, sans-serif;
-  font-size:   16px;
+  font-family: ff-meta-web-pro;
+
+  font-size:   18px;
   line-height: 24px;
 
-  color:       #EEE;
+  color:       #DDD;
+}
+
+@media only screen and (max-width: 767px) {
+  body, p {
+    -webkit-hyphens: auto;
+  }
 }
 
 h1, h2 ,h3, h4, h5, h6 {
   font-family: adelle, helvetica, serif;
   font-weight: 700;
   color:       #EEE;
+}
+
+h2.floating {
+  float:       left;
+  height:      38px;
+  line-height: 48px;
+  margin:      0;
+  padding:     5px 10px 5px 10px;
 }
 
 /* Header */
@@ -218,6 +233,7 @@ html.wf-adelle-n7-active ul.navigation a {
 
 .tile .description {
   font-size: 16px;
+  font-family: adelle, helvetica, serif;
 
   color: #EEE;
 }
@@ -272,7 +288,11 @@ html.wf-adelle-n7-active ul.navigation a {
   }
 }
 
-/* About Me photo */
+/* About Me */
+.profile h2 {
+  font-size: 40px;
+}
+
 .profile-wrapper {
   font-family: adelle, helvetica, serif;
 
@@ -289,8 +309,8 @@ html.wf-adelle-n7-active ul.navigation a {
 .profile-wrapper {
   background:  url(/img/about-me/hi-grainy-m.png) no-repeat 214px 0;
   padding:     45px 0 0 50px;
-  height:     370px;
-  font-size:  30px;
+  height:      370px;
+  font-size:   30px;
 }
 
 .profile-wrapper span {
@@ -342,10 +362,11 @@ html.wf-adelle-n7-active ul.navigation a {
   .profile-wrapper {
     background: none;
     height:     auto;
+    padding:    0 0 20px 0;
   }
 
   .profile-wrapper span.personal {
-    font-size: 30px;
+    font-size: 30px !important;
   }
 
   .profile-wrapper span {
