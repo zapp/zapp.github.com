@@ -1,0 +1,18 @@
+<article class="post">
+  <header>
+    <h3>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </h3>
+    <p class="info">
+      <span class="date">{{ post.date | date:"%d. %b %Y" }}</span> in
+      <span class="section">{{ post.categories }}</span>
+    </p>
+  </header>
+  <section>
+    {% if content %}
+      {{ content }}
+    {% else %}
+      {{ post.content }}
+    {% endif %}
+  </section>
+</article>

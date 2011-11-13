@@ -6,9 +6,16 @@ description: 3D arch. assets for an early version of Spectaculum.
 banner_url:  /img/banner/desert_house.png
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+In the course of designing Spectaculum – A Gipsy Adventure i came up with
+environmental 3D Assets for the game. They include 2 experimental stone houses
+and other adornments like plants, all low poly.
+
+<img src="/img/games/desert-house/desert-house-big.png"
+     alt="Desert House">
+
+They were created with 3Ds Max 2012 basically achieved through box modeling
+using the standard and graphite modelig tools provided, cloth simulation and
+other modifiers like noise and path deformation.
+
+For the unwrap I used the peeling mode and the slate material editor for
+applying the maps and textures.

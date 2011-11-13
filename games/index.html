@@ -2,13 +2,17 @@
 layout: default
 ---
 
-<div class="sidebar four columns offset-by-one">
-	Read about
-	<span class="projects">projects</span>
-	I&nbsp;am currently working on or have been busy with in the past.
+<div class="left sidebar four columns offset-by-one">
+  <p class="big">
+  	Read about present & past
+  	<span class="projects highlight">projects</span>
+    or play smaller
+  	<span class="highlight">games</span>
+    and prototypes
+  </p>
 </div>
 
-<div class="eleven columns alpha omega">
+<div class="eleven columns container">
   <div class="row">
 	{% for post in site.categories.games %}
 		{% include tile.html %}

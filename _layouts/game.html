@@ -2,16 +2,30 @@
 layout: default
 ---
 
-<div class="game-header nine columns offset-by-one">
-  <h2>
-    <span>{{ page.title }}</span>
-  </h2>
-</div>
-<div class="game-body nine columns offset-by-one">
-  {{ content }}
-</div>
-<div class="game-sidebar five columns">
-  {% for picture in page.sidebar_pictures %}
-    <img src="{{ picture }}" alt="{{ page.title }}" />
-  {% endfor %}
+<article class="game nine columns offset-by-one">
+  <header>
+    <h2>
+      <span>{{ page.title }}</span>
+    </h2>
+  </header>
+  <section>
+    {{ content }}
+  </section>
+</article>
+
+<div class="desktop only right sidebar five columns">
+  <p class="big">
+    {{ page.description }}
+  </p>
+  {% if page.assets %}
+    <ul class="downloads">
+    {% for asset in page.assets %}
+      <li>
+        <a href="{{ asset.url }}" alt="{{ asset.title }}">
+          {{ asset.title }}
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
 </div>

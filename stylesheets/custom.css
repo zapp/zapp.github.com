@@ -3,23 +3,48 @@ html {
 }
 
 body{
+  font-family: ff-meta-web-pro;
+  color:       #DDD;
+
   height: 100%;
 
   background: #161515
-              url(/img/ui/texture.png) no-repeat center top fixed;
+              url(/img/ui/texture.jpg) no-repeat center top fixed;
+}
+
+.only {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  .mobile.only{
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .desktop.only {
+    display: block;
+  }
+}
+
+/* Fonts etc. */
+
+strong, i {
+  color: #EEE;
+}
+
+.highlight {
+  color: #C5C533;
 }
 
 i {
   font-style: italic;
 }
 
-body, p, p strong, p i  {
-  font-family: ff-meta-web-pro;
-
+p, li, blockquote {
   font-size:   18px;
   line-height: 24px;
-
-  color:       #DDD;
 }
 
 @media only screen and (max-width: 767px) {
@@ -28,10 +53,15 @@ body, p, p strong, p i  {
   }
 }
 
+
 h1, h2 ,h3, h4, h5, h6 {
   font-family: adelle, helvetica, serif;
   font-weight: 700;
   color:       #EEE;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  text-decoration: none;
 }
 
 h2.floating {
@@ -43,26 +73,26 @@ h2.floating {
 }
 
 /* Header */
-.header-wrapper {
+#page-header {
   text-align: center;
 
-  margin: 16px 0;
+  margin: 12px 0 36px 0;
 }
 
-.header {
+#page-header .content {
   display: inline-block;
   background: url(/img/ui/header_bulb_large.png) no-repeat;
   height: 166px;
 }
 
-.header .content-wrapper {
+#page-header .content-wrapper {
   display: block;
   height:  64px;
 
   margin: 71px 0 0 140px;
 }
 
-.header h1 {
+#page-header h1 {
   text-align:  right;
   font-size:   30px;
   line-height: 30px;
@@ -74,14 +104,14 @@ h2.floating {
   color: #888;
 }
 
-ul.navigation {
+#page-header ul.navigation {
   display:         block;
   text-align:      right;
   list-style-type: none;
   white-space:     nowrap;
 }
 
-ul.navigation li {
+#page-header ul.navigation li {
   display: inline-block;
   float:   left;
   height:      34px;
@@ -94,7 +124,7 @@ ul.navigation li {
   background: #EEE;
 }
 
-ul.navigation a {
+#page-header ul.navigation a {
   padding:     0px 17px;
 
   font-family: adelle, helvetica, serif;
@@ -103,60 +133,56 @@ ul.navigation a {
   letter-spacing: -4px;
 
   position: relative;
-  top:      4px;
+  top:      6px;
 
   color:    #161515;
 }
 
-ul.navigation a:hover, ul.navigation a:focus {
+#page-header ul.navigation a:hover,
+#page-header ul.navigation a:focus {
   color: #C5C533;
 }
 
 @media only screen and (max-width: 767px) {
-  .header {
+  #page-header .content  {
     background: url(/img/ui/header_bulb_medium.png) no-repeat;
     height:     110px;
   }
 
-  .header .content-wrapper {
+  #page-header .content-wrapper {
     margin: 37px 0 0 93px;
   }
 
-  .header h1 {
+  #page-header  h1 {
     font-size: 25px;
   }
 
-  ul.navigation li {
+  #page-header ul.navigation li {
     display:     block;
     height:      22px;
     font-size:   30px;
     line-height: 22px;
   }
 
-  ul.navigation a {
-    top:      3px;
+  #page-header ul.navigation a {
     padding:        0px 6px;
     letter-spacing: -2px;
+    top:             3px;
   }
 }
 
-/* Embeds */
-iframe {
-  max-width: 100%;
-}
-
 @media only screen and (max-width: 479px) {
-  .header {
+  #page-header .content {
     background: url(/img/ui/header_bulb_small.png) no-repeat;
     height:     110px;
     width:      100%;
   }
 
-  .header .content-wrapper {
+  #page-header  .content-wrapper {
     margin: 24px 0 0 52px;
   }
 
-  .header h1 {
+  #page-header  h1 {
     line-height: 26px;
 
     display: block;
@@ -165,18 +191,18 @@ iframe {
     width:   111px;
   }
 
-  .header h1 span {
+  #page-header  h1 span {
     display: block;
     float:   left;
   }
 
-  ul.navigation {
+  #page-header ul.navigation {
     display: block;
     float:   left;
     width:   137px;
   }
 
-  ul.navigation li {
+  #page-header ul.navigation li {
     display:    block;
     float:      right;
     height:     22px;
@@ -185,10 +211,57 @@ iframe {
     background: transparent;
   }
 
-  ul.navigation li a {
+  #page-header ul.navigation li a {
     display: inline;
     padding: 0 9px 0 0;
   }
+}
+
+/* Posts */
+
+.about-teaser {
+  margin: 12px 0;
+}
+
+article header {
+  margin: 0 0 12px 0;
+}
+
+article header h3 {
+  font-size:   44px;
+  line-height: 44px;
+}
+
+article header .date {
+  color:   #C5C533;
+}
+
+article img {
+  max-width: 100%;
+  margin:    12px 0;
+}
+
+article section ul li {
+  list-style-type: square;
+}
+
+article + article {
+  margin: 48px 0 0 0;
+}
+
+img.float.left {
+  float:  left;
+  margin: 0 12px 0 0;
+}
+
+img.float.right {
+  float:  right;
+  margin: 0 0 0 12px;
+}
+
+/* Embeds */
+iframe {
+  max-width: 100%;
 }
 
 /* Tiles */
@@ -263,37 +336,48 @@ iframe {
 
 /* Sidebar */
 .sidebar {
-  font-family: adelle, helvetica, serif;
-  text-align:  right;
-
-  font-size:   30px;
-  line-height: 40px;
-
-  font-weight: 700;
-
-  margin-bottom: 14px;
+  margin: 0 0 12px 0;
 }
 
-.sidebar span.projects {
+.sidebar .big {
+  font-family: adelle, helvetica, serif;
+  font-size:   30px;
+  line-height: 40px;
+  font-weight: 700;
+
+  hyphens: auto;
+}
+
+.sidebar .big .highlight {
   font-size: 44px;
-  color: #C5C533;
+  display:   block;
+}
+
+.sidebar.left {
+  text-align: right;
+}
+
+.sidebar img {
+  max-width: 100%;
+  margin:    0 0 20px 0;
 }
 
 @media only screen and (max-width: 767px) {
-  .sidebar {
+  .sidebar .big {
     font-size:   22px;
     line-height: 30px;
-    text-align:  justify;
+    text-align:  left;
   }
 
-  .sidebar span.projects {
-    font-size:   30px;
+  .sidebar .big .highlight {
+    font-size: 28px;
+    display:   inline !important;
   }
 }
 
 /* About Me */
 .profile h2 {
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .profile-wrapper {
@@ -303,10 +387,6 @@ iframe {
   line-height: 30px;
 
   font-weight: 700;
-}
-
-.profile-wrapper span.personal {
-  color: #C5C533;
 }
 
 .profile-wrapper {
@@ -336,7 +416,7 @@ iframe {
 }
 
 .profile-wrapper span.contact {
-  font-size: 52px;
+  font-size: 48px;
   margin: 0 0 18px 0;
 }
 
@@ -379,7 +459,7 @@ iframe {
 }
 
 /* Game */
-.game-header h2 {
+article.game header h2 {
   margin: 10px 0 20px 0;
 
   -webkit-transform-origin: left center;
@@ -392,9 +472,9 @@ iframe {
   transform: rotate(-1deg);
 }
 
-.game-header h2 span {
+article.game header h2 span {
   background: white;
-  color:      #151414;
+  color:      #161515;
   padding:    5px;
   margin:     0 0 0 -5px;
 
@@ -408,13 +488,130 @@ iframe {
   transform: rotate(1deg);
 }
 
-.game-sidebar img {
-  max-width: 100%;
-  margin:    0 0 20px 0;
+/* CV */
+
+.cv h2 {
+  background: #eee;
+  color:      #151414;
+  padding:    0 12px;
+  font-size:  26px;
+  margin:     0;
+}
+
+.cv h3 {
+  display: inline;
+
+  font-size:   22px;
+  line-height: 22px;
+
+  text-align:  center;
+}
+
+.cv li {
+  margin: 0 0 24px 0;
+}
+
+.cv li p {
+  margin: 0;
+}
+
+
+.cv li p:first-child {
+  margin: 0 0 0px -36px;
 }
 
 @media only screen and (max-width: 767px) {
-  .game-sidebar {
-    display: none;
+  .cv li p:first-child {
+    margin: 0;
   }
+}
+
+.cv > header {
+  margin: 36px 0;
+}
+
+.cv > header:first-child {
+  margin: 0 0 36px 0;
+}
+
+.cv section.skills header {
+  height:         44px;
+  margin:         0 0 12px 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .cv section.skills header {
+    height: auto;
+  }
+}
+
+.cv section.skills li,
+.cv section.skills p {
+  font-size:   16px;
+  line-height: 18px;
+  margin:      0 0 12px 0;
+}
+
+.cv section.skills.software li {
+margin:      0 0 6px 0;
+}
+
+.cv section.skills li:before {
+  content: '- ';
+}
+
+.cv table td {
+  line-height: 24px;
+  height:      24px;
+  padding:     0 6px 0 0;
+}
+
+.cv p, .cv td {
+  font-size:   18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.cv p.details {
+  font-style:  italic;
+  font-size:   16px;
+}
+
+.cv .interests li {
+  list-style-type: square;
+  margin:          0 0 6px 0;
+}
+
+@media only screen and (max-width: 479px) {
+  .cv a.email {
+    letter-spacing: -1px;
+  }
+}
+
+/* DISQUS overrides *sigh* */
+#disqus_thread {
+  margin: 24px 0;
+}
+
+#disqus_thread h3 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+#dsq-global-toolbar, #dsq-footer {
+  display: none;
+}
+
+#dsq-account-dropdown {
+  height:      36px;
+  line-height: 36px;
+}
+
+#dsq-sort-by select {
+  display:        inline-block;
+  vertical-align: text-bottom;
+}
+
+.errorlist li {
+  font-size: 14px;
 }

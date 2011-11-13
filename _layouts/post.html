@@ -2,4 +2,47 @@
 layout: default
 ---
 
-<h2>{{ site.title }}</h2>
+<p class="mobile only about-teaser">
+    <span class="highlight">Hello!</span> My name is
+    Sebastian and I design games. Welcome!
+</p>
+
+<div class="nine columns offset-by-one">
+  {% assign post = page %}
+  {% include post.html %}
+
+  <div id="disqus_thread" class="desktop only">
+
+  </div>
+  <script type="text/javascript">
+      var disqus_shortname = 'sebs-site';
+
+      (function() {
+          var dsq = document.createElement('script');
+          dsq.type = 'text/javascript';
+          dsq.async = true;
+          dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0])
+            .appendChild(dsq);
+      })();
+
+  </script>
+</div>
+
+<div class="right sidebar five columns">
+  <p class="desktop only big">
+    <span class="highlight">Hello!</span> My name is
+    Sebastian and I design games. Welcome!
+  </p>
+
+  <div class="related">
+    <h4>Related posts:</h4>
+    <ul>
+      {% for related in site.related_posts limit: 3 %}
+        <li>
+          <a href="{{ related.url }}">{{ related.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

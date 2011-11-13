@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<p class="mobile only about-teaser">
+    <span class="highlight">Hello!</span> My name is
+    Sebastian and I design games. Welcome!
+</p>
+
+<div class="nine columns offset-by-one">
+  {% for post in site.categories.blog limit:5 %}
+    {% include post.html %}
+  {% endfor %}
+</div>
+
+<div class="right sidebar five columns">
+  <p class="desktop only big">
+    <span class="highlight">Hello!</span> My name is
+    Sebastian and I design games. Welcome!
+  </p>
+</div>

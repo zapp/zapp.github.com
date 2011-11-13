@@ -2,14 +2,20 @@
 layout: default
 ---
 
-<div class="eight columns offset-by-two">
-	{% for post in site.categories.blog limit:5 %}
-		{% include post-preview.html %}
-	{% endfor %}
+<p class="mobile only about-teaser">
+    <span class="highlight">Hello!</span> My name is
+    Sebastian and I design games. Welcome!
+</p>
+
+<div class="nine columns offset-by-one">
+  {% for post in site.categories.blog limit:5 %}
+    {% include post.html %}
+  {% endfor %}
 </div>
 
-<div class="four columns">
-	Hello! My name is Sebastian and i'm a 24 year old game design
-	apprentice living in Berlin. Currently i'm working in a student
-	company called "Homunculus Game Collective".
+<div class="right sidebar five columns">
+  <p class="desktop only big">
+    <span class="highlight">Hello!</span> My name is
+    Sebastian and I design games. Welcome!
+  </p>
 </div>
