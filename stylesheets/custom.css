@@ -28,6 +28,10 @@ body{
   }
 }
 
+.ie .desktop.only {
+  display: block;
+}
+
 /* Fonts etc. */
 
 strong, i {
@@ -265,7 +269,7 @@ iframe {
 }
 
 /* Tiles */
-.tile {
+.tile, .tile:visited {
   display: block;
 
   padding: 0 0 16px 0;
