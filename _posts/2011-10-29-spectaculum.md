@@ -16,7 +16,7 @@ and solving puzzles cooperatively.
 <img src="/img/games/spectaculum/spectaculum1.png"
      alt="Spectaculum">
 
-Let destiny guide you through uncharted lands, as youíll experience a
+Let destiny guide you through uncharted lands, as you'll experience a
 world in which bearocratic clerks want to take away the only thing that
 maters to you… your freedom.
 
