@@ -5,7 +5,7 @@ title:      Gypsies at Platoon Berlin
 ---
 
 The Spectaculum crew will be at this years A-Maze indie connect
-prelude showcasing their prototype oft he game @
+prelude showcasing their prototype of the game @
 [Platoon Berlin][platoon] from Fiday Oct 28 to Saturday Oct 29.
 
 <a href="http://www.platoon.org/">
