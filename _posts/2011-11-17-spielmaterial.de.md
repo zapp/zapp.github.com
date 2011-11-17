@@ -14,7 +14,7 @@ material.
 <img src="/img/blog-posts/spielmaterial.jpg" alt="Spielmaterial">
 
 I guess everybody has been using  a salt shaker or Monopoly houses (or anything
-else standig around) to demonstrate a game idea, but in extendet development
+else standig around) to demonstrate a game idea, but in extended development
 sessions or brainstormings a nice set of rudimental game pieces can make things
 lot easier.
 
