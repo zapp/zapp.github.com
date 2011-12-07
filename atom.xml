@@ -1,0 +1,28 @@
+---
+layout: nil
+---
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Sebastian Kessler</title>
+  <link href="http://sebastiankessler.com/"/>
+  <link type="application/atom+xml" rel="self" href="http://sebastiankessler.com/atom.xml"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>http://sebastiankessler.com/</id>
+  <author>
+    <name>Sebastian Kessler</name>
+    <email>mail@sebastiankessler.com</email>
+  </author>
+  {% for post in site.categories.blog %}
+  <entry>
+    <id>http://sebastiankessler.com{{ post.id | uri_escape }}</id>
+    <link type="text/html" rel="alternate" href="http://robb.is{{ post.url }}"/>
+    <title>{{ post.title }}</title>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <author>
+      <name>Sebastian Kessler</name>
+      <uri>http://sebastiankessler.com/</uri>
+    </author>
+    <content type="html">{{ post.content | xml_escape }}</content>
+  </entry>
+  {% endfor %}
+</feed>
