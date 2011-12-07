@@ -182,6 +182,8 @@ h2.floating {
   }
 }
 
+
+
 @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 767px) {
    #page-header .content  {
     background: url(/img/ui/header_bulb_medium_2x.png) no-repeat;
@@ -240,7 +242,81 @@ h2.floating {
   }
 }
 
+/* Footer */
 
+#page-footer {
+  margin: 48px 0 0 0;
+  height: 100px;
+}
+
+#page-footer .bar {
+  position:   relative;
+  height:     54px;
+  background: url('/img/ui/footer_gear.png') bottom right;
+
+  margin: 0 0 9px 0;
+}
+
+#page-footer h3 {
+  display:    inline;
+  background: #161515;
+  position:   absolute;
+  bottom:     -9px;
+  padding:    0 5px 0 0;
+  margin:     0;
+}
+
+#page-footer a {
+  font-size:       16px;
+  font-weight:     bold;
+  text-decoration: none;
+  font-family:     adelle, helvetica, serif;
+}
+
+#page-footer a:hover {
+  color:   #C5C533;
+}
+
+@media only screen and (max-width: 767px) {
+  #page-footer {
+    text-align: center;
+    border-top: 1px #333 dashed;
+    margin:     8px 0;
+    padding:    4px 0;
+  }
+
+  #page-footer .about, #page-footer .archive, #page-footer .search {
+    margin:  4px;
+  }
+
+  #page-footer .search input {
+    display: inline-block;
+  }
+
+  #page-footer .bar {
+    display: none;
+  }
+}
+
+/*@media only screen and (max-width: 479px) {
+/*  #page-footer .bar {
+/*    background: #EEE;
+/*    height:     12px;
+/*  }
+/*
+/*  #page-footer h3 {
+/*    display: none;
+/*  }
+/*
+/*  #page-footer .about, #page-footer .archive, #page-footer .search {
+/*    float: left;
+/*    width: 92px;
+/*  }
+/*
+/*  #page-footer .about, #page-footer .archive {
+/*    margin: 0 12px 0 0;
+/*  }
+/*}
 /* Posts */
 
 .about-teaser {
@@ -771,4 +847,17 @@ margin:      0 0 6px 0;
 
 .errorlist li {
   font-size: 14px;
+}
+
+/* Google search */
+#google-search {
+  display: block;
+}
+
+#google-search-box {
+  display:   block;
+  padding:   3px 0;
+  margin:    0;
+  border:    none;
+  font-size: 12px;
 }
