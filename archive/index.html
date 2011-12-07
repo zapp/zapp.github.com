@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<div class="nine columns offset-by-three">
+  <ul>
+  {% for post in site.posts %}
+    <li>
+      <a>{{ post.title }}</a>
+      <span class="date">{{ post.date | date:"%d. %b %Y" }}</span>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
