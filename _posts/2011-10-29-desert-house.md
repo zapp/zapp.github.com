@@ -10,7 +10,7 @@ gallery_prefix: deserthouse
 picture_count:  6
 ---
 
-In the course of designing Spectaculum – A Gipsy Adventure i came up with
+In the course of designing "Spectaculum – A Gipsy Adventure" I came up with
 environmental 3D Assets for the game. They include 2 experimental stone houses
 and other adornments like plants, all low poly.
 
