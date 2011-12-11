@@ -12,7 +12,7 @@ gallery_prefix: spectaculum
 picture_count:  12
 ---
 __Spectaculum__ is a cooperative action-adventure game for four players.
-Slip into the roles of four gipsies artists- each with their own unique
+Slip into the roles of four gipsy artists- each with their own unique
 abilities to fight different kinds of enemies while protecting a caravan
 and solving puzzles cooperatively.
 
@@ -20,12 +20,12 @@ and solving puzzles cooperatively.
      alt="Spectaculum">
 
 Let destiny guide you through uncharted lands, as you'll experience a
-world in which bearocratic clerks want to take away the only thing that
-maters to you… your freedom.
+world in which bureaucratic clerks want to take away the only thing that
+matters to you… your freedom.
 
-__Spectaculum__ is designed as a couch game for friends and families. Battle
+__Spectaculum__ is designed as a "couch game" for friends and families. Battle
 tactics, puzzle solutions and even the control over your caravan require
-you to communicate. So listen carefuly and act thoughtfully as you're
+you to communicate. So listen carefully and act thoughtfully as you're
 heading down a giant canyon with 180 km/h!
 
 <img src="/img/games/spectaculum/spectaculum-inline2.png"
@@ -36,8 +36,8 @@ of both Game Design and Media & Computer Science students at University
 of Applied Sciences (HTW) Berlin.
 
 Go visit [gipsyadventure.com][gipsyadventure] for more information.
-Watch the recent ingame fotage from our proof-of-concept prototype or
-browse other pictures and arts of the game:
+Watch the recent ingame footage from our proof-of-concept prototype or
+browse other pictures and artworks of the game:
 
 <iframe width="640px" height="360px" src="https://www.youtube.com/embed/Dksq056lJMY"/>
 
