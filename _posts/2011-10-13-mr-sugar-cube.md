@@ -2,7 +2,7 @@
 title:       Mr Sugar Cube
 layout:      game
 categories:  games
-description: A sweet camera-controlled raincatcher game
+description: A sweet camera-controlled rain catcher game
 banner_url:  /img/banner/mrsugarcube.png
 
 gallery_path:   /img/games/mr-sugar-cube/gallery
@@ -20,7 +20,7 @@ prototype state, but told us some valuable lessons.
        alt="Mr. Sugar Cube himself"
      title="Artwork by David Junge">
 
-The project was a cooperative work of my friend David Junge and Me and was made
+The project was a cooperative work of my friend David Junge and me and was made
 with [Processing][processing].
 
 It is a little rain catcher game and it is upt to you to protect Mr. Sugar Cube
