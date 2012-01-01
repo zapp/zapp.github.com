@@ -14,13 +14,13 @@ picture_count:  3
 content coming soon.
 
 <img src="/img/games/neukoelln-nights/neukoelln-inline1.png"
-     alt="Neukoelln">
+     alt="Neukoelln1">
 
 more content.
 
 
 <img src="/img/games/neukoelln-nights/neukoelln-inline2.png"
-     alt="Neukoelln">
+     alt="Neukoelln2">
 
 even more content
 
