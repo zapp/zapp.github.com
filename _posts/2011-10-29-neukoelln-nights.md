@@ -11,27 +11,30 @@ gallery_path:   /img/games/neukoelln-nights/gallery
 gallery_prefix: neukoelln
 picture_count:  3
 ---
-genre: __point and click adventure__
-platform: __web__
-engine: __onw__ (coffee script, canvas)
-language: __english__
+genre: __point and click adventure__  
+platform: __web__  
+engine: __onw__ (coffee script, canvas)  
+language: __english__  
 
+
+<img class="float right"
+       src="/img/games/neukoelln-nights/neukoelln-inline1.png"
+       alt="mhh...couchy"
+     title="Artwork by Merlin Bernard">
+     
 __Neukoelln Nights__ is an adventure game I created with [Robert Böhnke][robb], 
 [David Junge][david] and Merlin Bernard making our debut at "ludum dare" #22 this
 december. According to the rules of the jam, it took us aproximatly 48h (plus 24h
 of sleep) and is based on the competitions theme _alone_.
 
-<img class="float left"
-       src="/img/games/neukoelln-nights/neukoelln-inline1.png"
-       alt="mhh...couchy"
-     title="Artwork by Merlin Bernard">
+<img src="/img/games/neukoelln-nights/neukoelln-inline2.png"
+     alt="Neukoelln2">
 
 Go visit [the ludum dare project page][ludum-dare-entry] for more information or
 play the game right [here][neukoelln-nights-game]. You can also take a look at this 
 little [post mortem][pm] i wrote.
 
-<img src="/img/games/neukoelln-nights/neukoelln-inline2.png"
-     alt="Neukoelln2">
+
 
 ## Gallery:
 
