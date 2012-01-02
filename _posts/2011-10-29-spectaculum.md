@@ -39,7 +39,7 @@ Go visit [gipsyadventure.com][gipsyadventure] for more information.
 Watch the recent ingame footage from our proof-of-concept prototype or
 browse other pictures and artworks of the game:
 
-<iframe width="640px" height="360px" src="https://www.youtube.com/embed/Dksq056lJMY"/>
+<iframe src="http://player.vimeo.com/video/31747997?title=0&amp;byline=0&amp;portrait=0&amp;color=c5c533" width="640" height="360" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 ## Gallery:
 

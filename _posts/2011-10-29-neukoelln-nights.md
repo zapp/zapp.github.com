@@ -20,12 +20,14 @@ language: __english__
 <img class="float left"
        src="/img/games/neukoelln-nights/neukoelln-inline1.png"
        alt="Neukoelln1"
-     title="mhh...couchy">
-     
+       title="mhh...couchy">
+  
+
 __Neukoelln Nights__ is an adventure game I created with [Robert Böhnke][robb], 
 [David Junge][david] and Merlin Bernard making our debut at "ludum dare" #22 this
 december. According to the rules of the jam, it took us aproximatly 48h (plus 24h
-of sleep) and is based on the competitions theme _alone_.
+of sleep) and is based on the competitions theme _alone_. It isn't nearly as complete
+as we wanted it to be, but i guess that happens.
 
 <img src="/img/games/neukoelln-nights/neukoelln-inline2.png"
      alt="Neukoelln2"
