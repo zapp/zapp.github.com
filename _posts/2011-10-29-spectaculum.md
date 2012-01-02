@@ -43,7 +43,7 @@ browse other pictures and artworks of the game:
     width="640px" 
     height="360px" 
     src="http://player.vimeo.com/video/31747997?title=0&amp;byline=0&amp;portrait=0&amp;color=c5c533" 
-    allowFullScreen>
+    allowFullScreen />
 
 ## Gallery:
 
