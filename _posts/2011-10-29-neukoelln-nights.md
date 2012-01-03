@@ -13,7 +13,7 @@ picture_count:  2
 ---
 genre: __point and click adventure__  
 platform: __web__  
-engine: __onw__ (coffee script, canvas)  
+engine: __own__ (coffee script, canvas)  
 language: __english__  
   
   
@@ -24,7 +24,7 @@ language: __english__
   
 
 __Neukoelln Nights__ is an adventure game I created with [Robert Böhnke][robb], 
-[David Junge][david] and Merlin Bernard making our debut at "ludum dare" #22 this
+[David Junge][david] and Merlin Bernard making our debut at _Ludum Dare_ #22 this
 december. According to the rules of the jam, it took us aproximatly 48h (plus 24h
 of sleep) and is based on the competitions theme _alone_. It isn't nearly as complete
 as we wanted it to be, but i guess that happens.
@@ -35,7 +35,7 @@ as we wanted it to be, but i guess that happens.
 
 Go visit [the ludum dare project page][ludum-dare-entry] for more information or
 play the game right [here][neukoelln-nights-game]. You can also take a look at this 
-little [post mortem][pm] i wrote.
+pocket [post mortem][pm] I wrote.
 
 
 

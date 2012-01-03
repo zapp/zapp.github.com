@@ -1,0 +1,79 @@
+---
+layout:     post
+categories: blog
+title:      Ludum Dare #22 Post Mortem
+---
+
+The weekend before christmas me and friends were participating in our first
+Ludum Dare Jam spending 72 hours making a little adventure game. It is called
+__Neukoelln Nights__ and you may find more about it on my website. 
+Since not everything turned out as we expected it, i reconsidered some aspects
+of the development process and here is what I came up with:
+
+__What went right?__
+
+1. fast decision
+
+As for a short term competition like ludum dare, it is an advantage to get started very fast. 
+Since the theme "alone" didn't quite fit to the universal gameplay we had in mind before, we 
+had to reconsider a new one. After brainstorming gameplay ideas and scenarios with the group,
+we came up with an old school adventure game idea very fast (2h). The idea of a one-room-adventure
+in which you need to get rid of all party members except the girl of your dreams, was crisp 
+and seemed manageable and funny enough to entertain the players as well as ourselves during 
+the development process.
+
+2. skill mix
+
+With four members beeing a relatively big group we found the configuration turning out pretty
+well for an adventure game. Our two artists David and Merlin dealt with the high amout of 
+environmental pixel graphics and character Sprites.Robet, responsible for code started from scratch 
+and managed to set up the core scene at day two so we could put in art on the fly whenever necesary.
+Being primarily in charge for design, I planed the level scale, quest tree, character motivation and sound.
+
+3. platform
+
+Using browser based java script has a lot of advantages (and some disadvantages mentioned later on): 
+* easy testing on a local host
+* simple deployment and access for the players
+* no downloading
+* playable on mobile devices
+
+
+
+__What went wrong?__
+
+1. platform
+
+It turned out that canvas has problems running smoothly on firefox and chrome as far as we can tell. The bug makes the game freeze
+in different situations in the game and sometimes even causes the browser to crash entirely.Along with the
+advantages of web deployment comes the pain of providing a flawless experiences on every browser. 
+Not everyone has the latest updates for his browser and not every browser supports every feature yet.
+
+
+2. complexity & time
+
+We didn't manage to put everything in the game we wanted (of course). The first version of the game featured 9 different
+characters with animations for walking, idle and talking, interactive environment, an item system and a dialogue menu, an intro
+screen and a whole bunch of audio. Everything a good adventure needs.
+At the evening of day two, when we realized our plans where to ambitious for a three day project, I had to trash my
+allready finished work on the quest tree and start thinking about a more simple version using only the features we allready
+implemented. That also meant trashing two days of valuable manpower but we had to go on. For the purpose of documentation take
+a look at these drafts:
+
+<img src="/img/blog-posts/spielmaterial.jpg" alt="Spielmaterial">
+
+So far our hero would walk and talk to other people triggering events. Walk and talk. Thats not much but we came up with a
+simplyfied dialogue structure which featured a trial and error way of solving the puzzle. This means in every game stage there
+was a person you could talk to, whos actions would have forced a party guest to leave (progress) and a person who made the player fail.
+With every correctly triggered person you would advance through the phases and in every phase the situation was slightly 
+different so the player would understand his influence on the guests. Take a closer look to this discarded structure sheet:
+
+<img src="/img/blog-posts/spielmaterial.jpg" alt="Spielmaterial">
+
+In the end we didn't even had the time to let the player fail correctly, resulting in some kind of interactive story in which
+the players only challenge is to talk to every character randomly, advancing automatically from phase to phase.
+
+To finish the game we would have needed two to three more days setting up the engine, making it a title people could spend 10-20 minutes on and have fun
+with. Otherwise we could have cut content and freedom in order to achieve more gameplay but the result would have been a rather poor
+p&c adventure I guess.
+[delivery]: http://www.spielmaterial.de/english3/start.php?conditions.php
