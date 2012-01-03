@@ -68,4 +68,4 @@ pocket [post mortem][pm] I wrote.
 [neukoelln-nights-game]: http://robb.is/ludum-dare/
 [robb]: http://robb.is/
 [david]: http://djunge.tumblr.com/
-[pm]: http://google.de/
+[pm]: http://sebastiankessler.com/blog/ludum-dare-22/
