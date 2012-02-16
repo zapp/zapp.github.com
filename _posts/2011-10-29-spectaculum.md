@@ -2,7 +2,7 @@
 title:       Spectaculum
 layout:      game
 categories:  games
-description: A four player coop action adventure with gipsy artists.
+description: A four player coop action adventure with circus artists.
 banner_url:  /img/banner/spectaculum.png
 
 work_in_progress: true
@@ -12,7 +12,7 @@ gallery_prefix: spectaculum
 picture_count:  12
 ---
 __Spectaculum__ is a cooperative action-adventure game for four players.
-Slip into the roles of four gipsy artists- each with their own unique
+Slip into the roles of four circus artists- each with their own unique
 abilities to fight different kinds of enemies while protecting a caravan
 and solving puzzles cooperatively.
 
@@ -35,7 +35,7 @@ The game is a student project currently developed by a ten-strong team
 of both Game Design and Media & Computer Science students at University
 of Applied Sciences (HTW) Berlin.
 
-Go visit [gipsyadventure.com][gipsyadventure] for more information.
+Go visit [homunculusgames.com][homunculus] for more information.
 Watch the recent ingame footage from our proof-of-concept prototype or
 browse other pictures and artworks of the game:
 
@@ -70,4 +70,4 @@ browse other pictures and artworks of the game:
 {% endif %}
 <!-- gallery snippet -->
 
-[gipsyadventure]: http://gipsyadventure.com
+[homunculus]: http://homunculusgames.com
