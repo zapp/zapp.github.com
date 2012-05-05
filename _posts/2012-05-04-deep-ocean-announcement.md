@@ -11,12 +11,12 @@ title:      Deep Ocean Announcement
 The __Anno 2070__ Addon __Deep Ocean__ has been announced! It focuses on submarine
 gameplay and features a whole new population level for the Tech faction. Furthermore...
 
-* Tech Monument
-* hostile takeover of islands
-* energy transfer building
-* submarine trading routes
-* geothermal powerplant
-* and more...
+ * Tech Monument
+ * hostile takeover of islands
+ * energy transfer building
+ * submarine trading routes
+ * geothermal powerplant
+ * and more...
 
 And don't miss to read Craig Pearson allusive [article][rpsAnnouncement] on Rock Paper Shotgun.
 In the game section you will find further information to __Anno 2070: Deep Ocean__, regarding my involvement in
