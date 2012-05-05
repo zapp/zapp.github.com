@@ -12,6 +12,7 @@ gallery_prefix: annoAddon
 picture_count:  5
 ---
 
+ 
 
 <img class="float left"
        src="/img/games/anno2070/deep-ocean-logo-ger.png"
@@ -28,10 +29,11 @@ and content into the game since then.
 </a>
 
 
-As the titel suggests __Anno 2070__ is set in the near future and features the struggle between 
+As the title suggests __Anno 2070__ is set in the near future and features the struggle between 
 three globally acting factions fighting for their vision of human future. Players embark different kinds
 of ships and submarines to claim the remaining land, the rising ocean has not yet devoured. Speading on
 these islands, players build up gigantic and vital cities powered by complex ware chains and trading routes.
+
 They discover old and new energy sources and possibilities to increase the eco balance of their settlements manually.
 And when it's neccessary they fight with newly developed vehicles and use powerfull Items against the henchmen of
 other factions. Or they peacefully try to convince them by the use of diplomatic actions.
