@@ -1,8 +1,8 @@
 ---
-title:       Anno 2070: Deep Ocean
+title:       Anno 2070
 layout:      game
 categories:  games
-description: The mother of all economic strategy games arrived in the future. And on the ground of the ocean.
+description: The mother of all economic strategy games.
 banner_url:  /img/banner/anno.png
 
 work_in_progress: true
