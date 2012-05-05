@@ -13,6 +13,7 @@ picture_count:  5
 ---
 
  
+ 
 
 <img class="float left"
        src="/img/games/anno2070/deep-ocean-logo-ger.png"
@@ -38,7 +39,10 @@ They discover old and new energy sources and possibilities to increase the eco b
 And when it's neccessary they fight with newly developed vehicles and use powerfull Items against the henchmen of
 other factions. Or they peacefully try to convince them by the use of diplomatic actions.
 
-Get an impression of the game watching the trailer and the gallary below. You can buy the game on [amazon][amazonAnno]
+__Deep Ocean__ pushes the underwater aspect of the game forward by providing underwater trading routes, new scenarios, 
+powerfull vehicles and a new population level for the Tech faction.
+
+Get an impression of the game watching the trailer and the gallery below. You can buy the game on [amazon][amazonAnno]
 or purchase it via [steam][steamAnno].
 
 
