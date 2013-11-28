@@ -5,13 +5,20 @@ categories:  games
 description: The mother of all economic strategy games hits the future.
 banner_url:  /img/banner/anno.png
 
-work_in_progress: true
+work_in_progress: false
 
 gallery_path:   /img/games/anno2070/gallery
 gallery_prefix: annoAddon
 picture_count:  5
 ---
-
+role: __intern system game design__
+responsibilities: __character mission dialogues, character mission design, conquest mode maps__
+genre: __real time strategy__  
+platform: __PC__  
+realization: __own engine__
+language: __various__
+developer: __related designs__
+publisher: __ubisoft__
  
  
 
