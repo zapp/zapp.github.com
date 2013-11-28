@@ -58,7 +58,7 @@ pocket [post mortem][pm] I wrote.
 
   <div class="display-wrapper">
     <img src="{{ page.gallery_path }}/{{ page.gallery_prefix }}-preview-1.png" />
-    <a href="{{ page.gallery_path }}/{{ page.gallery_prefix }}-original-1.png">Download Original</a>
+    <a href="{{ page.gallery_path }}/{{ page.gallery_prefix }}-original-1.png">Download Original Size</a>
   </div>
 </div>
 {% endif %}

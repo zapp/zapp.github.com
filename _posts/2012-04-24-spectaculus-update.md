@@ -24,7 +24,8 @@ our baby in the near future. We will see...
     height="293" 
     webkitAllowFullScreen="true"
     mozallowfullscreen="true"
-    allowFullScreen="true" />
+    allowFullScreen="true">
+</iframe>
 
 [homunculusgames]: http://homunculusgames.com 
 [spectaculum]: http://sebastiankessler.com/games/spectaculum/

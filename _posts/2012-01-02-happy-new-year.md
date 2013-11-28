@@ -12,4 +12,5 @@ Get an impression of New Year's Eve over Berlin.
     height="293" 
     webkitAllowFullScreen="true"
     mozallowfullscreen="true"
-    allowFullScreen="true" />
+    allowFullScreen="true">
+</iframe>

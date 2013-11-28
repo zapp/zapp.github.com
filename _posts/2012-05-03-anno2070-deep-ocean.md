@@ -11,17 +11,17 @@ gallery_path:   /img/games/anno2070/gallery
 gallery_prefix: annoAddon
 picture_count:  5
 ---
-role: __intern system game design__
-responsibilities: __character mission dialogues, character mission design, conquest mode maps__
-genre: __real time strategy__  
+role: __intern system game design__  
+responsibilities: __character mission dialogues, character mission design, conquest mode maps__  
+genre: __real time strategy__   
 platform: __PC__  
-realization: __own engine__
-language: __various__
-developer: __related designs__
-publisher: __ubisoft__
+realization: __own engine__  
+language: __various__  
+developer: __related designs__  
+publisher: __ubisoft__  
  
  
-
+ 
 <img class="float left"
        src="/img/games/anno2070/deep-ocean-logo-ger.png"
        alt="Anno Artwork showing the game world"
@@ -59,7 +59,8 @@ or purchase it via [steam][steamAnno].
     height="293" 
     webkitAllowFullScreen="true"
     mozallowfullscreen="true"
-    allowFullScreen="true" />
+    allowFullScreen="true">
+</iframe>
 
 
 ## Gallery:
@@ -81,7 +82,7 @@ or purchase it via [steam][steamAnno].
 
   <div class="display-wrapper">
     <img src="{{ page.gallery_path }}/{{ page.gallery_prefix }}-preview-1.png" />
-    <a href="{{ page.gallery_path }}/{{ page.gallery_prefix }}-original-1.png">Download Original</a>
+    <a href="{{ page.gallery_path }}/{{ page.gallery_prefix }}-original-1.png">Download Original Size</a>
   </div>
 </div>
 {% endif %}

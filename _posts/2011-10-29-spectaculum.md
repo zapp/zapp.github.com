@@ -22,7 +22,8 @@ and solving puzzles cooperatively.
     height="293" 
     webkitAllowFullScreen="true"
     mozallowfullscreen="true"
-    allowFullScreen="true" />
+    allowFullScreen="true">
+</iframe>
 
 
 Let destiny guide you through uncharted lands, as you'll experience a
@@ -51,7 +52,8 @@ browse other pictures and artworks of the game:
     width="640px" 
     height="360px" 
     src="http://player.vimeo.com/video/31747997?title=0&amp;byline=0&amp;portrait=0&amp;color=c5c533" 
-    allowFullScreen="true" />
+    allowFullScreen="true">
+</iframe>
 
 ## Gallery:
 
@@ -72,7 +74,7 @@ browse other pictures and artworks of the game:
 
   <div class="display-wrapper">
     <img src="{{ page.gallery_path }}/{{ page.gallery_prefix }}-preview-1.png" />
-    <a href="{{ page.gallery_path }}/{{ page.gallery_prefix }}-original-1.png">Download Original</a>
+    <a href="{{ page.gallery_path }}/{{ page.gallery_prefix }}-original-1.png">Download Original Size</a>
   </div>
 </div>
 {% endif %}
